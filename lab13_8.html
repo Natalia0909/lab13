@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+        <title>Користувацька функція</title>
+    </head>    
+    <body>
+      <script>
+         function mean() {
+             var result = 0;
+             for (var i = 0; i < arguments.length; i++) {
+                 result += arguments[i];
+             }
+             
+             return result / arguments.length;
+         }
+ 
+         document.write("Середнє: " + mean(3, 15) + "<br>");
+         document.write("Середнє: " + mean(4, 13, 7,89) + "<br>");
+     </script>
+     
+      <h1>Next steps</h1>
+      <a href="index.html" class="butn">Повернутися</a>
+
+    </body>
+</html>

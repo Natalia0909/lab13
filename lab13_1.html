@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Дні тижня</title>
+
+</head>
+<body>
+   <div id="week-container"></div>
+
+   <script>
+       function weekDay(size, day, color) {
+           const days = ["Понеділок", "Вівторок", "Середа", "Четвер", "П'ятниця", "Субота", "Неділя"];
+           const container = document.getElementById("week-container");
+           container.innerHTML += `<div style="font-size: ${size}px; color: ${color};">${days[day - 1]}</div>`;
+       }
+
+       weekDay(20, 1, "red");
+       weekDay(25, 3, "blue");
+       weekDay(30, 7, "green");
+   </script>
+
+   <h1>Next steps</h1>
+   <a href="index.html" class="butn">Повернутися</a>
+
+
+</body>
+</html>

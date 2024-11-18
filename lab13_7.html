@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+        <title>Користувацька функція</title>
+    </head>    
+    <body>
+      <script>
+        let x = 10;
+        let y = 20;
+        
+        function add(a, b) {
+            return a + b;
+        }
+        function subtract(a, b) {
+            return a - b;
+        }
+        function multiply(a, b) {
+            return a * b;
+        }
+        function divide(a, b) {
+            return a / b;
+        }
+    
+        document.write("Значення змінної x: " + x.valueOf() + "<br>");
+        document.write("Значення змінної y: " + y.valueOf() + "<br>");
+        
+        document.write("<br>Результат add(x, y): " + add(x, y) + "<br>");
+        document.write("Результат subtract(x, y): " + subtract(x, y) + "<br>");
+        document.write("Результат multiply(x, y): " + multiply(x, y) + "<br>");
+        document.write("Результат divide(x, y): " + divide(x, y) + "<br>");
+
+    </script>
+            
+      <h1>Next steps</h1>
+      <a href="index.html" class="butn">Повернутися</a>
+
+    </body>
+</html>

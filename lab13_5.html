@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+        <title>Користувацька функція</title>
+    </head>    
+    <body>
+      <script>
+			"use strict";
+			function printText(txt, size = 14, weight = "normal") {
+				document.write(`<div style="font-size:${size}pt; font-weight:${weight}">${txt}</div>`);
+			}
+
+			printText("<p>Великий і жирний шрифт", 32, "bold"); 
+			printText("<p>Шрифт за замовченням - перший рядок"); 
+			printText("<p>Напівжирний текст", 18, "600"); 
+			printText("<p>Малий і тонкий шрифт", 8, "lighter");
+		</script>
+      
+      <h1>Next steps</h1>
+      <a href="index.html" class="butn">Повернутися</a>
+
+    </body>
+</html>

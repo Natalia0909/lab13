@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+        <title>Користувацька функція</title>
+    </head>    
+    <body>
+		<script>
+			function cube(x) { 
+				return x * x * x;
+			}
+
+			function formula(x, k) { 
+				return 2 + k(x) + x - 7;
+			}
+
+			let result = formula(3, cube); 
+
+			document.write("<h2>Результат: ", result, "</h2>");
+		</script>
+      
+      <h1>Next steps</h1>
+      <a href="index.html" class="butn">Повернутися</a>
+
+    </body>
+</html>
